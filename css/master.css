@@ -1,0 +1,247 @@
+h1,h2,h3,h4,li{
+  font-family: 'Source Code Pro', serif;
+}
+p{
+  font-family: 'Roboto Slab', serif;
+}
+
+
+body {
+  background-color: #d2d2d8;
+  background-attachment: fixed;
+  margin: 0px;
+}
+
+header{
+  height: 9em;
+  background-color: rgb(51, 0, 102);
+  padding: 2em;
+  width: 100%;
+  display: block;
+  border: 0px solid;
+  box-sizing: border-box;
+}
+header>h1{
+  display: block;
+  box-sizing: border-box;
+  border: 0px solid;
+  float:left;
+  color: rgb(231,229,228);
+}
+header>img{
+  display: block;
+  box-sizing: border-box;
+  border: 0px solid;
+  margin-right: 1em;
+  float:left;
+}
+
+footer {
+  padding: 0px 3%;
+}
+
+#container {
+  margin: auto;
+}
+
+nav {
+  display:block;
+  margin: 0px;
+}
+
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav>ul {
+  height: 2em;
+}
+nav a {
+  font-family: 'Roboto Slab', serif;
+  color: #EBDDFF;
+  padding: 0 2em;
+  text-align: center;
+  text-decoration: none;
+  line-height: 2em;
+  display: block;
+}
+
+nav li:hover, nav .def {
+  background-color: #024b74;
+}
+
+nav>ul>li {
+  float: left;
+  width: 33.33%;
+  border-left: 1px solid #BDBDBD;
+  box-sizing: border-box;
+  display: block;
+  background-color: rgb(115, 0, 230);
+}
+
+nav>ul>li:first-child {
+  border: 0;
+}
+
+.Web_theme{
+  padding: 0px 10%;
+  border: 1px solid;
+  display: block;
+  box-sizing: border-box;
+  color: rgb(231,229,228);
+}
+.Web_theme>h1{
+  text-align: center;
+
+}
+
+.Small-Image{
+  display: block;
+  float:left;
+  width: 3vw;
+  height: 3vw;
+  margin: 1%;
+}
+
+#Skills {
+  background-color: rgba(102, 102, 255,0.6);
+  border-color: rgba(102, 102, 255,0.6);
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+#Skills > ul {
+  list-style-type: none;
+  font-size: 1.2em;
+}
+
+.progressbar {
+  background-color: black;
+  border-radius: 0.8em; /* (height of inner div) / 2 + padding */
+  padding: 2.7px;
+}
+
+.progressbar > div {
+   background-color: darkblue;
+   width: 30%; /* Adjust with JavaScript */
+   height: 1em;
+   border-radius: 0.8em;
+}
+
+#About_Me {
+  background-color: rgba(77, 77, 255,0.6);
+  border-color: rgba(77, 77, 255,0.6);
+}
+
+#About_Me>p{
+  font-family: 'Roboto Slab', serif;
+}
+
+#About_Me>img{
+  display: block;
+  box-sizing: border-box;
+  width: 20vw;
+  height: 20vw;
+  float: right;
+  margin: 1%;
+}
+
+#Portfolio {
+  background-color: rgba(128, 128, 255,0.6);
+  border-color: rgba(128, 128, 255,0.6);
+  box-sizing: border-box;
+  height: 150vh;
+}
+
+.projects>*{
+  box-sizing: border-box;
+  float:left;
+}
+
+.project{
+  display: block;
+  width: 49%;
+  height: 40vh;
+  border:2px solid;
+  padding: 1%;
+  margin: 2% 0.5%;
+}
+
+/* #Chesspy{
+  background-image: url();
+} */
+
+.project>h2{
+  width:45%;
+  text-align: center;
+  float: left;
+}
+
+.description>b>p{
+  display: block;
+  box-sizing: border-box;
+  text-align: left;
+  margin: inherit;
+  font-size: 80%;
+}
+
+.descriptionHeader{
+  display: block;
+  box-sizing: border-box;
+  text-align: left;
+  margin: 2% 0px;
+}
+
+.project>b{
+  width:55%;
+  height: 100%;
+  border: 0px solid;
+  float: right;
+  margin: 0px;
+}
+
+.description{
+  width:55%;
+  height: 100%;
+  border: 2px solid grey;
+  padding: 0.5%;
+  display: block;
+  overflow-y: scroll;
+  float: right;
+  box-sizing: border-box;
+}
+
+.project>a{
+  box-sizing: border-box;
+  height:3vw;
+  width: 3vw;
+}
+
+/* #mathDisplay{
+  width: 100%
+} */
+
+.maths{
+
+}
+
+.maths>iframe{
+  /* display: block; */
+  /* box-sizing: border-box; */
+  float: left;
+}
+
+.maths, .educations{
+  float:left;
+}
+
+.maths>h2, .educations>h2{
+  text-align: center;
+}
+
+footer>h4{
+  width: 14em;
+  float:left;
+  text-align: center;
+}

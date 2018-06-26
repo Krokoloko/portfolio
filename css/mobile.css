@@ -1,0 +1,38 @@
+@media screen and (max-width: 600px) {
+
+  header{
+    padding:1em;
+    height: 7em;
+  }
+  header>img{
+  }
+  header>h1{
+    font-size: 1.7em;
+  }
+  body{
+    margin:auto;
+  }
+
+  nav{
+    display: inline;
+  }
+
+  nav a{
+    padding: 0 1em;
+    font-size: 0.99em;
+  }
+
+  nav>ul>li{
+    display:block;
+    float:left;
+    /* border: 1px solid #BDBDBD; */
+  }
+  nav>ul>li:first-child{
+    /* border: 1px solid #BDBDBD; */
+  }
+
+  nav>ul>li:last-child {
+    /* border: 1px solid #BDBDBD; */
+    /* border-radius: 0px 0px 10px 10px; */
+  }
+}
