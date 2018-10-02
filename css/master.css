@@ -5,6 +5,13 @@ p{
   font-family: 'Roboto Slab', serif;
 }
 
+#headline{
+  color: rgb(231,229,228);
+  text-align: left;
+  display: ;
+  box-sizing: ;
+  font-size: 0.8em;
+}
 
 body {
   background-color: #d2d2d8;
@@ -25,8 +32,9 @@ header>h1{
   display: block;
   box-sizing: border-box;
   border: 0px solid;
-  float:left;
+  text-align: left;
   color: rgb(231,229,228);
+  margin: 0px;
 }
 header>img{
   display: block;
@@ -47,6 +55,8 @@ footer {
 nav {
   display:block;
   margin: 0px;
+  top: 0px;
+  position: sticky;
 }
 
 nav ul{
@@ -99,8 +109,8 @@ nav>ul>li:first-child {
 .Small-Image{
   display: block;
   float:left;
-  width: 3vw;
-  height: 3vw;
+  width: 2.4vw;
+  height: 2.4vw;
   margin: 1%;
 }
 
@@ -134,13 +144,17 @@ nav>ul>li:first-child {
   border-color: rgba(77, 77, 255,0.6);
 }
 
-#About_Me>p{
+#About_Me>div>p{
   font-family: 'Roboto Slab', serif;
 }
+#About_Me>div{
+  width: 94%;
+}
 
-#About_Me>img{
+#About_Me>div>img{
   display: block;
   box-sizing: border-box;
+  border-radius: 5px;
   width: 20vw;
   height: 20vw;
   float: right;
@@ -151,7 +165,7 @@ nav>ul>li:first-child {
   background-color: rgba(128, 128, 255,0.6);
   border-color: rgba(128, 128, 255,0.6);
   box-sizing: border-box;
-  height: 150vh;
+  height: 350vh;
 }
 
 .projects>*{
@@ -159,18 +173,25 @@ nav>ul>li:first-child {
   float:left;
 }
 
+.project>.visual{
+  display: block;
+  width: 46%;
+}
+
 .project{
   display: block;
-  width: 49%;
-  height: 40vh;
-  border:2px solid;
-  padding: 1%;
+  width: 100%;
+  height: 45vh;
+  border:3.2px solid;
+  border-radius: 2.8px;
+
   margin: 2% 0.5%;
 }
 
-/* #Chesspy{
-  background-image: url();
-} */
+.description>b>a{
+  text-decoration: none;
+  color: #551a96;
+}
 
 .project>h2{
   width:45%;
@@ -202,9 +223,9 @@ nav>ul>li:first-child {
 }
 
 .description{
-  width:55%;
+  width:54%;
   height: 100%;
-  border: 2px solid grey;
+  border: 2px solid #CCCCCC;
   padding: 0.5%;
   display: block;
   overflow-y: scroll;
@@ -218,25 +239,11 @@ nav>ul>li:first-child {
   width: 3vw;
 }
 
-/* #mathDisplay{
-  width: 100%
-} */
-
-.maths{
-
-}
-
-.maths>iframe{
-  /* display: block; */
-  /* box-sizing: border-box; */
-  float: left;
-}
-
-.maths, .educations{
+.educations{
   float:left;
 }
 
-.maths>h2, .educations>h2{
+.educations>h2{
   text-align: center;
 }
 

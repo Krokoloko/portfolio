@@ -13,7 +13,7 @@ let links = [];
 let descs = [];
 links.push('');
 descs.push('<h2>Vector Mathematics</h2>');
-links.push('scripts/math/functions/index.html');
+links.push('content/portfolio/math/functions/index.html');
 descs.push('<h2>Graphs and Statistics</h2>')
 links.push('');
 descs.push('<h2>Trigonometri and Pythagora theorem</h2>')
