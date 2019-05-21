@@ -14,7 +14,7 @@ body {
 
 header{
   height: 9em;
-  background-color: #5D4AE0;
+  background-color: #4F08AD;
   padding: 2em;
   width: 100%;
   display: block;
@@ -127,23 +127,23 @@ nav>ul>li:first-child {
   height: 45em;
 }
 
-#Skills > ul > li{
-  list-style-type: none;
-  font-size: 1.2em;
-  font-family: 'Rubik';
-}
-
 #Skills > h2{
   text-align: center;
 }
 
-.item{
-  width: 20vw;
-  float: left;
-  margin: 0 3vw;
-  margin-bottom: 1vw;
+.itemList{
+  width: 100%;
+  padding: 0px 6.5%;
+  height: 14em;
+  box-sizing: content-box;
 }
-.item > p{}
+
+.item{
+  width: 25%;
+  float: left;
+  margin: 0 2%;
+  margin-bottom: 1%;
+}
 .item > i{
   margin: 0px 40%;
 }
@@ -153,8 +153,8 @@ nav>ul>li:first-child {
 
 
 #About_Me {
-  background-color: #0E1786;
-  border-color: #0E1786;
+  background-color: #060D59;
+  border-color: #060D59;
   height: 35em;
 }
 
@@ -172,19 +172,19 @@ nav>ul>li:first-child {
 #About_Me>div>img{
   display: block;
   box-sizing: border-box;
-  border-radius: 5px;
-  width: 20vw;
-  height: 20vw;
-  float: right;
+  border-radius: 10px;
+  height: 18vh;
+  transform: rotate(90deg);
   margin: 1%;
-  margin-bottom: 0px;
+  border: 0px;
+  float: right;
 }
 
 #Portfolio {
-  background-color: #1C28A6;
-  border-color: #1C28A6;
+  background-color: #1A26A4;
+  border-color: #1A26A4;
   box-sizing: border-box;
-  height: 175em;
+  height: 373vh;
 }
 #Portfolio>p{
   font-size: 1.2em;
@@ -201,6 +201,7 @@ nav>ul>li:first-child {
   display: block;
   width: 52%;
   border:0px solid;
+  border-radius: 5px;
   transition: 1s;
 }
 
@@ -222,14 +223,14 @@ nav>ul>li:first-child {
   transition: 1s;
 }
 .project:hover{
-  background-color: #37A65C;
-  border: 10px solid #37A65C;
+  background-color: #37865C;
+  border: 10px solid #37865C;
 }
 
 .project>a>img{
   margin: 1%;
-  width: 2.4vw;
-  height: 2.4vw;
+  height: 2em;
+  width: 2em;
   display: block;
   float: left;
 }
@@ -238,6 +239,7 @@ nav>ul>li:first-child {
   width:45%;
   text-align: center;
   font-family: 'Bree Serif';
+  color: #dcdcdc;
 }
 
 .project>b{
@@ -253,12 +255,13 @@ nav>ul>li:first-child {
   color: #551a96;
 }
 
-.description>b>p{
+.description>p>b{
   display: block;
   box-sizing: border-box;
   text-align: left;
   margin: inherit;
-  font-size: 80%;
+  font-size: 101%;
+  color: #dcdcdc
 }
 
 .description{
@@ -277,6 +280,7 @@ nav>ul>li:first-child {
   box-sizing: border-box;
   text-align: left;
   margin: 2% 0px;
+  color: #dcdcdc;
 }
 
 footer{
