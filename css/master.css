@@ -102,12 +102,13 @@ nav>ul>li:first-child {
   padding: 0px 10%;
   border: 1px solid;
   display: block;
+  height: 100%;
   box-sizing: border-box;
   color: rgb(231,229,228);
 }
+
 .Web_theme>h1{
   text-align: center;
-
 }
 
 .Small-Image{
@@ -122,7 +123,7 @@ nav>ul>li:first-child {
   background-color: #060D59;
   border-color: #060D59;
   box-sizing: border-box;
-  height: 45em;
+  /* height: 45em; */
 }
 
 #Skills > h2{
@@ -142,27 +143,31 @@ nav>ul>li:first-child {
   margin: 0 2%;
   margin-bottom: 1%;
 }
+
 .item > i{
-  margin: 0px 40%;
+  margin: 0px 41%;
 }
+
 .item > h2, .item > p{
   text-align: center;
 }
 
-
 #About_Me {
   background-color: #060D59;
   border-color: #060D59;
-  height: 35em;
+  /* height: 35em; */
+  padding: 0px 15%;
 }
 
 #About_Me>div>p{
   font-family: 'Rubik', serif;
   font-size: 100%;
 }
+
 #About_Me>div>h3, #About_Me>div>h2{
   /* font-size: 1.5em; */
 }
+
 #About_Me>div{
   width: 94%;
 }
@@ -181,8 +186,10 @@ nav>ul>li:first-child {
   background-color: #1A26A4;
   border-color: #1A26A4;
   box-sizing: border-box;
-  height: 373vh;
+  height: 100%;
+  margin-bottom: 3%;
 }
+
 #Portfolio>p{
   font-size: 1.2em;
   text-align: center;
@@ -191,13 +198,13 @@ nav>ul>li:first-child {
 
 .projects>*{
   box-sizing: border-box;
-  float:left;
+  /* float:left; */
 }
 
 .project>.visual{
   display: block;
   width: 52%;
-  border:0px solid;
+  border: 0px solid;
   border-radius: 5px;
   transition: 1s;
 }
@@ -205,6 +212,32 @@ nav>ul>li:first-child {
 .project>i{
   color: black;
   margin: 1%;
+}
+
+.project>a{
+  text-decoration: none;
+}
+
+.project>a>i{
+  color:black;
+  margin: 1%;
+}
+
+.project>br{
+  display: none;
+}
+
+.info-icon{
+  width: 10%;
+}
+
+.info-icon>i{
+  margin: 0 21%;
+  color: black;
+}
+
+.info-icon>p{
+  text-align: center;
 }
 
 .project{
@@ -216,12 +249,8 @@ nav>ul>li:first-child {
   border:3px solid #37965C;
   border-radius: 2.9px;
   font-family: 'Rubik', serif;
-  margin: 2% 0.5%;
+  margin: 0.8vh 0.5%;
   transition: 1s;
-}
-.project:hover{
-  background-color: #37865C;
-  border: 10px solid #37865C;
 }
 
 .project>a>img{
@@ -247,6 +276,7 @@ nav>ul>li:first-child {
   margin: 0px;
   font-family: 'Rubik', serif;
 }
+
 .description>b>a{
   text-decoration: none;
   color: #551a96;
@@ -301,9 +331,27 @@ footer>h4{
   color: rgb(231,229,228);
   font-family: 'Rubik';
 }
+
 footer>a>img{
   margin: 0.5%;
   margin-left: 4%;
   float: left;
   height: 69%;
+}
+
+footer>a{
+  text-decoration: none;
+}
+
+footer>a>i{
+  color: black;
+  margin: 0.5%;
+  margin-left: 4%;
+  float: left;
+  height: 69%;
+}
+
+footer{
+  font-family: 'Rubik', serif;
+  color: rgb(231,229,228);
 }
